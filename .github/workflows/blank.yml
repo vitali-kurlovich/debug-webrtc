@@ -27,13 +27,13 @@ jobs:
           python-version: "3.12"
 
       - name: Clone Repository
-        run: | 
-          git clone https://github.com/vitali-kurlovich/webrtc.git
-          ls
+        run: git clone https://github.com/vitali-kurlovich/webrtc.git
+          
         
       - name: Build WebRCT
         run: |
-          cd webrct
+          cd webrtc
           pip install --upgrade -r requirements.txt
-          sh scripts/clean.sh
-          sh scripts/release.sh
+          cd ../
+          sh webrtc/scripts/clean.sh
+          sh webrtc/scripts/release.sh
