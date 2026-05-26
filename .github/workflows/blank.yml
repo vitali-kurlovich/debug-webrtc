@@ -34,6 +34,5 @@ jobs:
         run: |
           cd webrtc
           pip install --upgrade -r requirements.txt
-          cd ../
-          sh webrtc/scripts/clean.sh
-          sh webrtc/scripts/release.sh
+          sh scripts/clean.sh
+          sh scripts/release.sh
