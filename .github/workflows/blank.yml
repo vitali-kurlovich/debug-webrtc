@@ -1,3 +1,5 @@
+name: Build WebRTC (Debug)
+
 env:
   XCODE_VERSION: 26.5
 
