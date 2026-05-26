@@ -12,6 +12,7 @@ jobs:
   Build-Script:
     runs-on: macos-26
     env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       BUILD_DEBUG: "1"
 
     steps:
