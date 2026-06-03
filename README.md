@@ -1,6 +1,6 @@
 # WebRTC Binaries for iOS and macOS
 
-[![WebRTC Release](https://github.com/vitali-kurlovich/debug-webrtc/actions/workflows/release.yml/badge.svg)](https://github.com/vitali-kurlovich/debug-webrtc/actions/workflows/release.yml)
+[![WebRTC](https://github.com/vitali-kurlovich/debug-webrtc/actions/workflows/release.yml/badge.svg)](https://github.com/vitali-kurlovich/debug-webrtc/actions/workflows/release.yml)
 [![Latest version](https://img.shields.io/github/v/release/vitali-kurlovich/debug-webrtc)](https://github.com/vitali-kurlovich/debug-webrtc/releases)
 [![Release Date](https://img.shields.io/github/release-date/vitali-kurlovich/debug-webrtc)](https://github.com/vitali-kurlovich/debug-webrtc/releases)
 
@@ -32,6 +32,6 @@ The binary releases correspond with official Chromium releases
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/vitali-kurlovich/debug-webrtc.git", .upToNextMajor("0.148.0"))
+    .package(url: "https://github.com/vitali-kurlovich/debug-webrtc.git", .upToNextMajor("0.149.0"))
 ]
 ```
